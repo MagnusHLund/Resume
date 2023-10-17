@@ -16,7 +16,7 @@ body {
 }
 
 .picture {
-  width:100%;
+  width:50%;
   margin: 2%;
 }
 
@@ -64,7 +64,7 @@ body {
 
   .picture {
     align-self: center;
-    width: 60%; /* Adjust the width as desired */
+    width: 20%; /* Adjust the width as desired */
     height: auto; /* Remove the height property to maintain aspect ratio */
     margin: 2% auto;
   }
