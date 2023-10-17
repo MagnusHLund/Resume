@@ -17,7 +17,8 @@ body {
 }
 
 .footer {
-    background-color: #f5f5f5;
+    background-color: #fff;
+    color: #000;
     padding: 20px 0;
     width: 100%;
     position: fixed;
@@ -54,7 +55,7 @@ body {
 
 .social-icons a,
 .contact-icons a {
-    color: #333;
+    color: #fff;
     display: flex;
     align-items: center;
 }
@@ -62,7 +63,8 @@ body {
 .icon {
     width: 20px;
     height: 20px;
-    fill: #333;
+    fill: #fff;
+    color: #fff;
 }
 
 .icon svg {
@@ -96,10 +98,27 @@ body {
     font-size: x-small;
 }
 
+.myLinks, #githubButton, #facebookButton, #linkedinButton{
+    color: #fff;
+}
+
+.social-icons a:hover img{
+    filter: invert(48%) sepia(11%) saturate(4545%) hue-rotate(329deg) brightness(97%) contrast(111%);
+}
+
+/* Change color on hover for phone and mail icons */
+.contact-icons a:hover img {
+    filter: invert(48%) sepia(11%) saturate(4545%) hue-rotate(329deg) brightness(97%) contrast(111%);
+}
+.contact-icons a:hover span {
+    color: #FF5733; /* Change to the desired hover color */
+}
+
+
 /* Styles for smaller screens or mobile devices */
 @media (max-width: 767px) {
     .footer {
-        background-color: #f5f5f5;
+        background-color: #000;
         padding: 20px;
         text-align: center;
         position: static;
@@ -109,7 +128,7 @@ body {
 /* Styles for medium-sized screens */
 @media (min-width: 768px) and (max-width: 1199px) {
     .footer {
-        background-color: #f5f5f5;
+        background-color: #000;
         padding: 40px;
         text-align: center;
         position: static;
@@ -125,7 +144,7 @@ body {
     }
 
     .footer {
-        background-color: #f5f5f5;
+        background-color: #000;
         padding: 20px;
         text-align: center;
         position: static;

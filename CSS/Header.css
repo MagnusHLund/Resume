@@ -1,6 +1,6 @@
 /* Header */
 .header {
-  background-color: #f5f5f5;
+  background-color: #000;
   padding: 20px;
 }
 
@@ -15,7 +15,6 @@
   font-weight: 700;
   margin: 0;
   text-align: center;
-  /* Added to center the name */
 }
 
 .header .navigation {
@@ -31,6 +30,10 @@
   display: flex;
 }
 
+.logo{
+  color: #fff;
+}
+
 .header .menu li {
   margin-right: 10px;
 }
@@ -38,7 +41,7 @@
 .header .menu a {
   font-weight: 400;
   text-decoration: none;
-  color: #000;
+  color: #fff;
   transition: color 0.3s ease;
 }
 

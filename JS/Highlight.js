@@ -3,7 +3,7 @@ let id;
 
 // Get the page name based on the URL using a switch statement
 switch (true) {
-    case url.pathname.includes("index") || url.pathname === "":
+    case url.pathname.includes("home"):
         console.log("Home page");
         id = document.getElementById("HomeId");
         pageName = "Home";
@@ -22,11 +22,6 @@ switch (true) {
         console.log("Project page");
         id = document.getElementById("ProjectId");
         pageName = "Projects";
-        break;
-    case url.pathname.includes("contact"):
-        console.log("Contact page");
-        id = document.getElementById("ContactId");
-        pageName = "Contact";
         break;
     default:
         console.log("Cannot specify webpage location");

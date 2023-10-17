@@ -51,11 +51,17 @@ body {
 .ITE,
 .ITN,
 .Grundforløbsbevis {
-    max-width: 20%;
+    max-width: 30%;
     /* Adjust the maximum width as desired */
     height: auto;
     /* Remove the height property to maintain aspect ratio */
     margin: 2%;
+}
+
+.mesterbrev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 912px) {
