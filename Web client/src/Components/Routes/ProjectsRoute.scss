@@ -1,0 +1,40 @@
+$gradientBackground: linear-gradient(
+  45deg,
+  rgba(81, 238, 255, 1) 0%,
+  rgba(0, 204, 255, 1) 50%,
+  rgba(0, 166, 255, 1) 100%
+);
+
+.projects {
+  padding: 10px;
+  background: $gradientBackground;
+  position: relative;
+  display: flex;
+
+  &--sun {
+    height: 250px;
+    width: auto;
+    position: fixed;
+    left: 25px;
+    top: 70px;
+  }
+
+  &__project-image {
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__person-image {
+    position: fixed;
+    width: 25vw;
+    height: auto;
+    top: 55vh;
+    left: 15vw;
+    @media only screen and (max-width: 660px) {
+      display: none;
+    }
+  }
+}

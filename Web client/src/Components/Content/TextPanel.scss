@@ -1,0 +1,15 @@
+.text-panel {
+  display: flex;
+  flex-direction: column;
+  &__title {
+    align-self: center;
+    padding: 1vh 1vw;
+    color: white;
+  }
+  &__children {
+    padding: 10px;
+    &.centerChildren {
+      text-align: center;
+    }
+  }
+}

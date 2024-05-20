@@ -1,0 +1,6 @@
+###
+# @name addVisitor
+GET http://localhost:1408/visitor/getCount HTTP/1.1
+content-type: application/json
+
+{}

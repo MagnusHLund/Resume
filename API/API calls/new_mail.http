@@ -1,0 +1,10 @@
+###
+# @name newMail
+POST http://localhost:1408/mail/new HTTP/1.1
+content-type: application/json
+
+{
+    "from": "Test",
+    "email": "test@test.com",
+    "message": "This is a test"
+}

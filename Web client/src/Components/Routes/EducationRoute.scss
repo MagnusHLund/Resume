@@ -1,0 +1,27 @@
+@use './../../App' as app;
+
+$gradient: linear-gradient(
+  45deg,
+  rgba(255, 0, 0, 1) 0%,
+  rgba(0, 105, 255, 1) 50%,
+  rgba(0, 204, 221, 1) 100%
+);
+
+.education {
+  background: $gradient;
+  min-height: 100vh;
+  &__books {
+    &--container {
+      min-height: 550px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: baseline;
+      overflow: hidden;
+      box-sizing: border-box;
+      padding-top: 5vh;
+    }
+  }
+  @media only screen and (max-width: app.$screen-width) {
+    flex-direction: column;
+  }
+}

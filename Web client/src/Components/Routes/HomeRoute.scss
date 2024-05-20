@@ -1,0 +1,141 @@
+@use './../../App' as app;
+
+$home-background: linear-gradient(
+  45deg,
+  rgba(150, 150, 150, 1) 0%,
+  rgba(105, 105, 105, 1) 33%,
+  rgba(0, 0, 0, 1) 100%
+);
+
+$top-background: linear-gradient(
+  45deg,
+  rgba(243, 255, 0, 1) 0%,
+  rgba(31, 219, 115, 1) 33%,
+  rgba(0, 212, 255, 1) 100%
+);
+
+$bottom-background: linear-gradient(
+  90deg,
+  rgba(243, 255, 0, 1) 0%,
+  rgba(31, 219, 115, 1) 33%,
+  rgba(0, 212, 255, 1) 100%
+);
+
+.home {
+  display: flex;
+  flex-direction: column;
+  background: $home-background;
+  min-height: 94vh;
+  &--top {
+    background: $top-background;
+    & > * {
+      width: 33%;
+    }
+    &--middle {
+      display: grid;
+      padding: auto 0;
+      &__image {
+        place-self: center;
+        height: auto;
+        width: 100%;
+        border-radius: 50%;
+        border: solid wheat 5px;
+        max-height: 30vh;
+        max-width: 30vh;
+        margin: 1vh 0;
+      }
+    }
+    &--right {
+      &__details {
+        margin-top: 1vh;
+      }
+      &__socials--container {
+        display: flex;
+        filter: invert(360);
+        & > * {
+          margin-right: 1vw;
+          margin-top: 1vh;
+          &:hover {
+            filter: invert(360);
+          }
+        }
+      }
+    }
+  }
+
+  &--bottom {
+    background: $bottom-background;
+    & > * {
+      width: 100%;
+    }
+    &--middle {
+      align-items: center;
+    }
+  }
+
+  & > * {
+    display: flex;
+    border-radius: 25px;
+    margin: 5vh 5vw;
+    padding: 1vw;
+  }
+
+  @media (max-width: 1100px) {
+    &--top,
+    &--bottom {
+      flex-direction: column;
+      & > * {
+        width: 100%;
+      }
+    }
+    &--bottom {
+      &--middle {
+        order: 3;
+      }
+      &--right {
+        order: 2;
+      }
+      &--left {
+        order: 1;
+      }
+    }
+
+    &--top {
+      &--middle {
+        order: 1;
+      }
+      &--right {
+        order: 3;
+      }
+      &--left {
+        order: 2;
+      }
+      &--right {
+        & * {
+          .text-panel__children {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1000px) {
+    &--top {
+      &--right {
+        & * {
+          .text-panel__children {
+            flex-direction: column;
+            text-align: center;
+          }
+        }
+        &__socials {
+          &--container {
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}

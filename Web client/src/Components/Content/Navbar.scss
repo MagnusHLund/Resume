@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #f0f0f0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 5px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  &--link {
+    text-decoration: none;
+    display: grid;
+    padding: 0 1vh;
+    &:hover {
+      background: #0390fc;
+      border-radius: 1vh;
+      transition: all 0.5s ease-in-out;
+    }
+    &__image {
+      place-self: center;
+      filter: invert(360);
+      height: 30px;
+      width: auto;
+    }
+    &__title {
+      place-self: center;
+      color: black;
+    }
+    &.active {
+      background: #0390fc;
+      border-radius: 1vh;
+    }
+  }
+}

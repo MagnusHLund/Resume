@@ -1,0 +1,16 @@
+$screen-width: 1024px;
+
+* {
+  margin: 0px;
+}
+
+html,
+body,
+#root {
+  height: auto;
+  min-height: 100vh;
+}
+
+html {
+  overflow-x: hidden;
+}

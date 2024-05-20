@@ -1,0 +1,35 @@
+@use './../../App' as app;
+
+.box {
+  text-align: center;
+  margin: 5vh 5vw;
+  &--title {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 20px auto;
+    margin-bottom: auto;
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: white;
+    &__text {
+      font-size: 20px;
+    }
+  }
+  &__child-container {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    z-index: 1;
+    margin-top: auto;
+    padding-top: auto;
+    border-top: auto;
+    text-align: left;
+  }
+  @media only screen and (max-width: app.$screen-width) {
+    padding-left: 0;
+  }
+}

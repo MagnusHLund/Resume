@@ -1,0 +1,56 @@
+$displayMarginWidth: 600px;
+
+.paper {
+  font-family: 'Indie Flower', cursive;
+  background: repeating-linear-gradient(
+    white,
+    white 3vh,
+    #9198e5 3.1vh,
+    #9198e5 3.2vh
+  );
+  background-position-y: 49vh;
+  height: 60vh;
+  width: 60vw;
+  padding: 0;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &--title {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    border-bottom: pink 2px solid;
+    display: flex;
+    padding-left: 1vw;
+    @media only screen and (min-width: $displayMarginWidth) {
+      &::before {
+        content: '';
+        width: 5vw;
+        background-color: white;
+        border-right: pink solid 2px;
+        height: 100%;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+      }
+    }
+  }
+  &__children {
+    height: 100%;
+    line-height: 3vh;
+    display: flex;
+    padding-left: 5px;
+    @media only screen and (min-width: $displayMarginWidth) {
+      &::before {
+        content: '';
+        width: 5vw;
+        border-right: pink solid 2px;
+        height: 100%;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "about": {
+    "about me": "About me",
+    "me": "I am Magnus, a technology enthusiast who embarked on my journey into the tech world through gaming. However, my passion has evolved and I now find myself more engrossed in coding than gaming.",
+    "server": "I manage a variety of services from my home server, including hosting this website, JellyFin, NextCloud, and more. My server operates on Unraid, a Debian-based Linux operating system.",
+    "programming": "My programming journey began in 2020 with game development in Unity. Since then, I've expanded my skill set to include technologies such as React TS, C#, PHP, and more.",
+    "dedicated": "I am a highly dedicated individual who believes in the importance of setting and achieving goals. My personal goal is to code every day, a commitment reflected in my months-long GitHub commit streak."
+  },
+  "details": {
+    "details": "Details",
+    "name": "Name:",
+    "age": "Age:",
+    "home": "Home:",
+    "location": "Amager, Denmark",
+    "social media": "Social media:"
+  },
+  "what i do": {
+    "what i do": "What I do",
+    "free time": "In my spare time, I immerse myself in learning new technologies. Currently, I'm focused on developing a PHP API and honing my skills in React TypeScript.",
+    "hardware": "Other than programming, I enjoy keeping up with modern computer hardware. I am quite handy when it comes to building, upgrading and troubleshooting computers",
+    "designing": "Designing is another passion of mine, whether it's the front-end of a web application or a simple Photoshop project. I find joy in the creative process."
+  },
+  "total visitors": {
+    "total visitors": "Total visitors",
+    "based on": "Based on unique IP addresses."
+  },
+  "jobs": {
+    "jobs": "Jobs",
+    "current": "My current role is an apprenticeship at Swiipe, where I've been working since October 2023. My contract lasts until May 2027, however I can see myself working there longer.",
+    "swiipe": "At Swiipe, I've gained valuable experience in the e-commerce sector, working with WooCommerce and Magento 2. My responsibilities include implementing new features for up-selling and handling technical support tasks that require a developer's expertise."
+  },
+  "lundbot69": {
+    "achieved": "This project kick-started my commitment to daily programming and it has undoubtedly become one of my most enlightening experiences. Through this project, I have gained substantial knowledge in React, TypeScript, and PHP, which has significantly enhanced my programming skills and understanding.",
+    "purpose": "The project aimed to create a Twitch bot to enhance the streaming experience for two friends of mine, a German and an American streamer, who use the Twitch live streaming platform.",
+    "fact": "This project has been my longest running project and I am very proud of what I have achieved so far. I am looking forward to even more development on LundBot69!"
+  },
+  "frogo restaurant": {
+    "achieved": "This is my second game release. Despite its simple gameplay, the development process was an enjoyable journey.",
+    "purpose": "There was no real purpose to this project, other than to cure my need to work. It was just a fun 2 weeks project.",
+    "fact": "While it might not be graphically impressive, it offers a fun and competitive gaming experience."
+  },
+  "temporary storage": {
+    "achieved": "This was my first introduction to web development, in terms of a personal project. I made it as a traditional website, using HTML, CSS and JavaScript.",
+    "purpose": "The concept was to create my own private version of filemail.com, to circumvent the 7-day uptime limit for uploaded content and the file size restriction.",
+    "fact": "While the project isn't entirely complete, it's a project I'm interested in finishing or recreating in the future. The current version is functional, but I aspire to enhance its capabilities."
+  },
+  "resume website": {
+    "achieved": "I hope you are enjoying my resume website!",
+    "purpose": "My resume website was initially created to aid in my search for an apprenticeship, and it was successful! However, the website you see now is not the original. I redesigned my resume website as part of a school assignment, resulting in a design that surpasses the original.",
+    "fact": "The original website was launched in May 2023, while the second version was part of my H2 education a year later. Version 2 was launched on May 19, 2024."
+  },
+  "more": {
+    "achieved": "Maybe you found one of my highlighted projects interesting? If so you can click on the circle with the image inside it. That will take you to the project page!",
+    "purpose": "Alternatively, you can click on the GitHub icon here to go directly to my GitHub profile.",
+    "fact": "My older projects are not on Github. This includes all of my game projects. However, I hope you'll find other projects that catch your eye."
+  },
+  "h1": {
+    "title": "H1 grades",
+    "grades": "Grades (ECTS):",
+    "client-side": "(16476) Client-side programming: A",
+    "OOP": "(16471) Object-oriented programming: A",
+    "Basic": "(16472) Basic programming: A",
+    "database server": "(6230) Database server: B",
+    "database programming": "(16474) Database programming: B",
+    "server admin and security": "(6222) Server administration and security: C",
+    "computer technology": "(6225) Computer technology: C",
+    "teacher": "Message from my primary teacher:",
+    "teachers message": "It is a great pleasure to have Magnus on the team. He works intensely with the subject, is constantly curious and asks many questions. He is always challenging himself. As a colleague, Magnus is excellent, and he is always ready to help others as needed."
+  },
+  "zbc": {
+    "current education": "Current education",
+    "explanation": "I am currently studying to become a data technician with a specialty in programming. This education involves alternating periods of school and apprenticeship. When I'm not at school, I work as an apprentice.",
+    "periods": "These are my school periods:"
+  },
+  "attended schools": {
+    "attended": "Attended schools",
+    "boarding school": "I attended Sorø Fri Fagskole from 2020 to 2021. Here, I was introduced to game development, creating 2D, 3D, and even virtual reality games. As part of my time at Sorø Fri Fagskole, I also participated in a one-week game jam. My group won the award for the silliest game, although it's not available for download."
+  },
+  "contact": {
+    "hello": "Hello, Magnus",
+    "message": "Message",
+    "sincerely": "Sincerely",
+    "your name": "Your name",
+    "your email": "Your email",
+    "send": "Send message",
+    "denmark": "Denmark"
+  }
+}

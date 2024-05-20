@@ -1,0 +1,13 @@
+.button {
+  &.transparent {
+    background: transparent;
+    border: none;
+  }
+}
+
+.submit {
+  &.card {
+    border-radius: 10px;
+    background-color: #d5b59c;
+  }
+}

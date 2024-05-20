@@ -1,0 +1,14 @@
+[
+  {
+    "LinkedIn": {
+      "ImagePath": "/Social media/LinkedIn.png",
+      "Name": "LinkedIn",
+      "Link": "https://www.linkedin.com/in/magnus-herringe-lund/"
+    },
+    "Github": {
+      "ImagePath": "/Social media/Github.png",
+      "Name": "Github",
+      "Link": "https://github.com/MagnusHLund"
+    }
+  }
+]

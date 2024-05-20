@@ -1,0 +1,88 @@
+{
+  "about": {
+    "about me": "Om mig",
+    "me": "Jeg hedder Magnus og jeg er en teknologieentusiast, der begyndte min rejse ind i teknologiens verden gennem gaming. Men min passion har udviklet sig, og nu finder jeg mig selv mere opslugt af kodning end gaming.",
+    "server": "Jeg administrerer en række tjenester fra min hjemmeserver, herunder hosting af denne hjemmeside, JellyFin, NextCloud og mere. Min server kører på Unraid, et Debian-baseret Linux-operativsystem.",
+    "programming": "Min programmeringsrejse begyndte i 2020 med spiludvikling i Unity. Siden da har jeg udvidet mit færdighedssæt til at inkludere teknologier som React TS, C#, PHP og mere.",
+    "dedicated": "Jeg er en meget dedikeret person, der tror på vigtigheden af at sætte og opnå mål. Mit personlige mål er at kode hver dag, en forpligtelse, der afspejles i min månedslange GitHub commit-streak."
+  },
+  "details": {
+    "details": "Detaljer",
+    "name": "Navn:",
+    "age": "Alder:",
+    "home": "Hjem:",
+    "location": "Amager, Danmark",
+    "social media": "Sociale medier:"
+  },
+  "what i do": {
+    "what i do": "Hvad jeg laver",
+    "free time": "I min fritid fordyber jeg mig i at lære nye teknologier. I øjeblikket er jeg fokuseret på at udvikle en PHP API og forbedre mine færdigheder i React TypeScript.",
+    "hardware": "Udover programmering nyder jeg at holde mig opdateret med moderne computerhardware. Jeg er ret handy, når det kommer til at bygge, opgradere og fejlfinde computere",
+    "designing": "Design er en anden passion for mig, uanset om det er front-end af en webapplikation eller et simpelt Photoshop-projekt. Jeg finder glæde i den kreative proces."
+  },
+  "total visitors": {
+    "total visitors": "Samlet antal besøgende",
+    "based on": "Baseret på unikke IP-adresser."
+  },
+  "jobs": {
+    "jobs": "Arbejde",
+    "current": "Mit nuværende job er en læreplads hos Swiipe, hvor jeg har arbejdet siden oktober 2023. Min kontrakt varer indtil maj 2027, men jeg kan se mig selv arbejde der længere.",
+    "swiipe": "Hos Swiipe har jeg fået værdifuld erfaring inden for e-handelssektoren, hvor jeg har arbejdet med WooCommerce og Magento 2. Mine ansvarsområder inkluderer implementering af nye funktioner til opsalg og håndtering af tekniske supportopgaver, der kræver en udviklers ekspertise."
+  },
+  "lundbot69": {
+    "achieved": "Dette projekt kickstartede mit personlige mål til daglig programmering og er uden tvivl blevet en af mine mest oplysende opgaver. Gennem dette projekt har jeg opnået betydelig viden i React, TypeScript og PHP, hvilket har forbedret mine programmeringsfærdigheder og forståelse betydeligt.",
+    "purpose": "Projektets formål er at skabe en Twitch bot som kan forbedre streamingoplevelsen for to af mine venner, en tysk og en amerikansk streamer, der bruger Twitch live streaming platformen.",
+    "fact": "Dette projekt har været mit længst løbende projekt, og jeg er meget stolt af, hvad jeg indtil videre har opnået. Jeg ser frem til endnu mere udvikling på LundBot69!"
+  },
+  "frogo restaurant": {
+    "achieved": "Dette er min anden spiludgivelse. På trods af dets enkle gameplay var udviklingsprocessen en fornøjelig rejse.",
+    "purpose": "Der var intet reelt formål med dette projekt, andet end at kurere mit behov for at arbejde. Det var bare et sjovt 2 ugers projekt.",
+    "fact": "Selvom det måske ikke er grafisk imponerende, tilbyder det en sjov og konkurrencedygtig spiloplevelse."
+  },
+  "temporary storage": {
+    "achieved": "Dette var min første introduktion til webudvikling, i form af et personligt projekt. Jeg lavede det som en traditionel hjemmeside, ved hjælp af HTML, CSS og JavaScript.",
+    "purpose": "Konceptet var at skabe min egen private version af filemail.com, for at omgå 7-dages oppetid grænsen for uploadet indhold og filstørrelsesbegrænsningen.",
+    "fact": "Selvom projektet ikke er helt færdigt, er det et projekt, jeg er interesseret i at færdiggøre eller genskabe i fremtiden. Den nuværende version fungerer, men jeg stræber efter at forbedre dens kapaciteter."
+  },
+  "resume website": {
+    "achieved": "Jeg håber, du nyder min CV-hjemmeside!",
+    "purpose": "Min CV-hjemmeside blev oprindeligt oprettet for at hjælpe mig med at finde en læreplads, og det lykkedes! Men hjemmesiden, du ser nu, er dog ikke den oprindelige. Jeg redesignede min CV-hjemmeside som en del af en skoleopgave, hvilket resulterede i et design, der overgår det oprindelige.",
+    "fact": "Den oprindelige hjemmeside blev lagt ud i maj 2023, mens den anden version var en del af min H2-uddannelse et år senere. Version 2 blev offentliggjort den 19. maj 2024."
+  },
+  "more": {
+    "achieved": "Måske fandt du et af mine fremhævede projekter interessante? Hvis det er tilfældet, kan du klikke på cirklen med billedet indeni. Det vil tage dig til projektsiden!",
+    "purpose": "Alternativt kan du klikke på GitHub-ikonet her for at gå direkte til min GitHub-profil.",
+    "fact": "Mine ældre projekter er ikke på Github. Dette inkluderer alle mine spilprojekter. Men jeg håber, du finder andre projekter, der fanger dit øje."
+  },
+  "h1": {
+    "title": "H1 karakterer",
+    "grades": "Karakterer:",
+    "client-side": "(16476) Klient-side programmering: 12",
+    "OOP": "(16471) Objektorienteret programmering: 12",
+    "Basic": "(16472) Grundlæggende programmering: 12",
+    "database server": "(6230) Database server: 10",
+    "database programming": "(16474) Database programmering: 10",
+    "server admin and security": "(6222) Serveradministration og sikkerhed: 7",
+    "computer technology": "(6225) Computerteknologi: 7",
+    "teacher": "Besked fra min primære lærer:",
+    "teachers message": "Det er en stor glæde at have Magnus på holdet. Han arbjeder intenst med faget, er konstant nysgerrig og stiller mange spørgsmål. Han udforder hele tiden sig selv. Som kollega er Magnus fremragende, og han er altid parat til at hjælpe andre efter behov."
+  },
+  "zbc": {
+    "current education": "Nuværende uddannelse",
+    "explanation": "Jeg studerer i øjeblikket for at blive datatekniker med speciale i programmering. Denne uddannelse involverer skiftevis perioder med skole og læreplads. Når jeg ikke er i skole, arbejder jeg som lærling.",
+    "periods": "Dette er mine skoleperioder:"
+  },
+  "attended schools": {
+    "attended": "Deltog i skoler",
+    "boarding school": "Jeg deltog i Sorø Fri Fagskole fra 2020 til 2021. Her blev jeg introduceret til spiludvikling, hvor jeg lavede 2D, 3D og endda virtual reality-spil. Som en del af min tid på Sorø Fri Fagskole deltog jeg også i en ugelang game jam. Min gruppe vandt prisen for det mest fjollede spil, selvom det ikke er tilgængeligt for download."
+  },
+  "contact": {
+    "hello": "Hej, Magnus",
+    "message": "Besked",
+    "sincerely": "Med venlig hilsen",
+    "your name": "Dit navn",
+    "your email": "Din email",
+    "send": "Send besked",
+    "denmark": "Danmark"
+  }
+}
