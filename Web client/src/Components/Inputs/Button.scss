@@ -10,4 +10,8 @@
     border-radius: 10px;
     background-color: #d5b59c;
   }
+  &.note {
+    background: transparentize($color: #bebebe, $amount: 0.4);
+    border-radius: 10px;
+  }
 }

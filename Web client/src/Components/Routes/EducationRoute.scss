@@ -21,6 +21,24 @@ $gradient: linear-gradient(
       padding-top: 5vh;
     }
   }
+  &__details--container {
+    display: flex;
+    justify-content: space-evenly;
+
+    & .box {
+      margin: 0;
+      max-width: 45%;
+      @media only screen and (max-width: app.$screen-width) {
+        max-width: unset;
+        min-width: unset;
+        margin: 1vh 5vw;
+      }
+    }
+
+    @media only screen and (max-width: app.$screen-width) {
+      flex-direction: column;
+    }
+  }
   @media only screen and (max-width: app.$screen-width) {
     flex-direction: column;
   }

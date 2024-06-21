@@ -12,7 +12,7 @@ const useHelmet = () => {
   const location = useLocation()
 
   useEffect(() => {
-    document.title = titles[location.pathname] || 'Unknown page'
+    document.title = titles[location.pathname] || 'Home page'
   }, [location])
 }
 

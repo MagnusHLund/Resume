@@ -2,7 +2,6 @@ import './EducationRoute.scss'
 import { useTranslation } from '../../Hooks/useTranslation'
 import Book from '../Content/Book'
 import Box from '../Content/Box'
-import Paragraph from '../Content/Paragraph'
 import List from '../Content/List'
 
 const EducationRoute: React.FC = () => {
@@ -37,11 +36,11 @@ const EducationRoute: React.FC = () => {
           </div>
         </Book>
       </div>
-      <div>
-        <Box title={t('zbc.current education')}>
-          <Paragraph texts={[t('zbc.explanation'), t('zbc.periods')]} />
+      <div className="education__details--container">
+        <Box title={t('zbc.current education')} minWidth="0">
+          {[t('zbc.explanation')]}
         </Box>
-        <Box title={t('attended schools.attended')}>
+        <Box title={t('attended schools.attended')} minWidth="0">
           {t('attended schools.boarding school')}
         </Box>
       </div>

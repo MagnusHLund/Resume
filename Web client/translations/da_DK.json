@@ -69,11 +69,10 @@
   },
   "zbc": {
     "current education": "Nuværende uddannelse",
-    "explanation": "Jeg studerer i øjeblikket for at blive datatekniker med speciale i programmering. Denne uddannelse involverer skiftevis perioder med skole og læreplads. Når jeg ikke er i skole, arbejder jeg som lærling.",
-    "periods": "Dette er mine skoleperioder:"
+    "explanation": "Jeg studerer i øjeblikket for at blive datatekniker med speciale i programmering. Denne uddannelse involverer skiftevis perioder med skole og læreplads. Når jeg ikke er i skole, arbejder jeg som lærling."
   },
   "attended schools": {
-    "attended": "Deltog i skoler",
+    "attended": "Tidligere skoler",
     "boarding school": "Jeg deltog i Sorø Fri Fagskole fra 2020 til 2021. Her blev jeg introduceret til spiludvikling, hvor jeg lavede 2D, 3D og endda virtual reality-spil. Som en del af min tid på Sorø Fri Fagskole deltog jeg også i en ugelang game jam. Min gruppe vandt prisen for det mest fjollede spil, selvom det ikke er tilgængeligt for download."
   },
   "contact": {

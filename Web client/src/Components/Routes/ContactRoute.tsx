@@ -24,7 +24,11 @@ const ContactRoute: React.FC = () => {
   })
 
   const form = (
-    <Form className="contact__form" submitButtonText="contact.send">
+    <Form
+      className="contact__form"
+      submitButtonText="contact.send"
+      ButtonClassName={formType === 'post-card__form' ? 'card' : 'note'}
+    >
       <p className={`contact__form--text ${formType}`}>{t('contact.hello')}</p>
       <TextInput
         placeholder={t('contact.message')}
